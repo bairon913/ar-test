@@ -21,7 +21,7 @@
   </head>
   <body>
     <model-viewer
-      src="tu_modelo.glb"  <!-- Reemplaza con el nombre de tu archivo -->
+      src="AV-7.glb"
       alt="Modelo 3D en AR"
       ar
       ar-modes="scene-viewer webxr quick-look"
