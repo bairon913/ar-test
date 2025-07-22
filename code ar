@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AR con Model Viewer</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        background-color: #111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      model-viewer {
+        width: 90vw;
+        height: 90vh;
+      }
+    </style>
+  </head>
+  <body>
+    <model-viewer
+      src="tu_modelo.glb"  <!-- Reemplaza con el nombre de tu archivo -->
+      alt="Modelo 3D en AR"
+      ar
+      ar-modes="scene-viewer webxr quick-look"
+      camera-controls
+      auto-rotate
+      shadow-intensity="1"
+      autoplay
+    ></model-viewer>
+  </body>
+</html>
